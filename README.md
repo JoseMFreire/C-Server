@@ -50,4 +50,5 @@ To connect to the server, the URL is <ip:port/index.html> where IP and port are 
 To create the server as a daemon process, the variable server_daemon must be changed in server.conf:
 - 0: Will not create it as a daemon process.
 - 1: Will create it as a daemon process.
+
 By default it is set to 0, so that the server can be easily killed with Ctrl + C and so it accepts STDIN as input.
